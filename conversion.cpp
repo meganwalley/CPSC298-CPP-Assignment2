@@ -34,7 +34,7 @@ int main() {
          << "Conversion" << endl
          << "Translating feet and inches to meters and centimeters!" << endl
          << "=====================================" << endl;
-    while (want_to_end != "exit" || want_to_end != "quit" || want_to_end != "stop" || want_to_end != "no") {
+    while (want_to_end != "exit" && want_to_end != "quit" && want_to_end != "stop" && want_to_end != "no") {
         user_input(feet, inches);
         calculate(feet, inches, meters, centimeters);
         output(meters, centimeters, want_to_end);
